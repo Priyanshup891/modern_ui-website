@@ -20,17 +20,17 @@ const App = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <img className="decore" src={decore} alt="decore"/>
+        {/* <img className="decore" src={decore} alt="decore"/> */}
       <Navbar />
       <Hero />
       </div>
-      <Category />
+      {/* <Category />
       <TopSelling />
       <EasyAndFast />
       <Testimonials />
       <Brands />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

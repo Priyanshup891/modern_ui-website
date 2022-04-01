@@ -7,7 +7,7 @@ import play from '../../assets/images/play.png'
 
 const Hero = () => {
   return (
-    <div className='header'>
+    <div className='header section__padding'>
       <div className='header-content'>
         <h2>Best Destinations around the world</h2>
         <h1>Travel, enjoy and live a new and full life</h1>
