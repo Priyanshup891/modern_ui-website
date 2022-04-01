@@ -1,16 +1,17 @@
 import React from 'react';
 import './topSelling.css';
 
-import rome from '../../assets/images/rome.png';
-import london from '../../assets/images/london.png';
-import europe from '../../assets/images/europe.png';
+
+import blob from '../../assets/images/blob.svg';
 
 const TopSelling = () => {
   return (
     <div className='topSelling__section section__padding'>
+     
       <h2>Top Selling</h2>
       <h1>Top Destinations</h1>
       <div className='topSelling__section-container'>
+      {/* <img className='blob' src={blob} alt="" /> */}
         <div className='topSelling__section-container_block'>
           <div className='topSelling__section-container_block-info'>
             <div>
