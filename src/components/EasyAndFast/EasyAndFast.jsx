@@ -5,7 +5,7 @@ import easyImage from '../../assets/images/easy.svg'
 
 const EasyAndFast = () => {
   return (
-    <div className="easyAndFast__section">
+    <div className="easyAndFast__section section__padding">
       <div className="easyAndFast__section-container">
         <div className="easyAndFast__section-container_info">
           <h2>Easy and Fast</h2>

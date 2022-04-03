@@ -6,7 +6,7 @@ import blob from '../../assets/images/blob.svg';
 
 const TopSelling = () => {
   return (
-    <div className='topSelling__section'>
+    <div className='topSelling__section section__padding'>
      
       <h2>Top Selling</h2>
       <h1>Top Destinations</h1>

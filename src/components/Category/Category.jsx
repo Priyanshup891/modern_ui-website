@@ -15,22 +15,22 @@ const Category = () => {
       <div className='category__section-content'>
         <div className='category__section-content__container'>
           <div className='category__section-content__container-block'>
-            <img src={weather} alt="weather" />
+            <img src={weather} alt="weather"/>
             <h3>calculate weather</h3>
             <p>Built Wicket longer admire do barton vanity itself do in it.</p>
           </div>
           <div className='category__section-content__container-block'>
-            <img src={flight} alt="flight" />
+          <img src={flight} alt="flight" />
             <h3>best flights</h3>
             <p>Engrossed listening. Park gate sell they west hard for the.</p>
           </div>
           <div className='category__section-content__container-block'>
-            <img src={events} alt="events" />
+          <img src={events} alt="weather" />
             <h3>local events</h3>
             <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
           </div>
           <div className='category__section-content__container-block'>
-            <img src={customization} alt="customization" />
+          <img src={customization} alt="weather" />
             <h3>customization</h3>
             <p>We deliver outsourced aviation services for military customers</p>
           </div>

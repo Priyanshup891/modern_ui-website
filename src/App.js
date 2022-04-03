@@ -24,10 +24,10 @@ const App = () => {
       <Navbar />
       <Hero />
       </div>
-      {/* <Category />
+      <Category />
       <TopSelling />
       <EasyAndFast />
-      <Testimonials />
+      {/* <Testimonials />
       <Brands />
       <Subscribe />
       <Footer /> */}

@@ -9,16 +9,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-left: 4rem;
-    padding-left: 6rem;
-    margin-right: 1rem;
 }
 
 .easyAndFast__section-container_info{
     display: flex;
     flex-direction: column;
     flex: 1;
-
 }
 
 .easyAndFast__section-container_info h2{
@@ -86,7 +82,8 @@ color: #14183E;
 
 .easyAndFast__section-container_image{
     display: flex;
-    flex: 1;
+    flex: 1.5;
+
 }
 
 .easyAndFast__section-container_image img{
