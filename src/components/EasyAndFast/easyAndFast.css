@@ -1,14 +1,12 @@
 .easyAndFast__section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
 }
 
 .easyAndFast__section-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .easyAndFast__section-container_info{
@@ -81,9 +79,11 @@ color: #14183E;
 }
 
 .easyAndFast__section-container_image{
-    display: flex;
-    flex: 1.5;
-
+    width: 100%;
+    max-width: 700px;
+    padding-top: 200px;
+    display: grid;
+    justify-self:end;
 }
 
 .easyAndFast__section-container_image img{

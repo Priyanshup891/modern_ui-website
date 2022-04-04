@@ -33,14 +33,39 @@ a{
 
 }
 
+.gradient__bg_1 {
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 100% 50%, #FFE5E0 0%,#fff 30%, #fff 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 100% 50%, #FFE5E0 0%,#fff 30%, #fff 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 100% 50%, #FFE5E0 0%,#fff 30%, #fff 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 100% 50%, #FFE5E0 0%,#fff 30%, #fff 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 100% 50%, #FFE5E0 0%,#fff 30%, #fff 100%);
+
+}
+
 .decore{
     position: absolute;
     top: 0;
     right: 0;
 }
 
+@media screen and (max-width: 1050px){
+    .decore{
+        display: none;
+    }
+}
+
 .section__padding{
-    padding: 1rem 6rem 4rem;
+    padding: 4rem 6rem;
 }
 
 .section__margin{
