@@ -9,7 +9,7 @@ import customization from '../../assets/images/category_4.png';
 
 const Category = () => {
   return (
-    <div className='category__section section__padding'>
+    <div className='category__section'>
       <h2>CATEGORY</h2>
       <h1>We Offer Best Services</h1>
       <div className='category__section-content'>

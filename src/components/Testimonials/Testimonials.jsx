@@ -5,7 +5,7 @@ import person from '../../assets/images/testi.png'
 
 const Testimonials = () => {
   return (
-    <div className='testimonial__section section__padding'>
+    <div className='testimonial__section'>
       <div className='testimonial__section-container'>
         <div className='testimonial__section-container_info'>
           <h2>Testimonials</h2>

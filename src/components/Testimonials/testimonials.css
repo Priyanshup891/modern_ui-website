@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 4rem 0;
 }
 
 .testimonial__section-container{
@@ -55,7 +59,7 @@ box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 
 border-radius: 10px;
 padding:4rem 2rem;
 width: 100%;
-max-width: 800px;
+max-width: 600px;
 }
 
 .testimonial__section-container_testi-info_1 p{

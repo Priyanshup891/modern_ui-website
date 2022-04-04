@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 1rem 6rem;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .header-content{
