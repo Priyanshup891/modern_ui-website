@@ -27,12 +27,12 @@ const Category = () => {
           <div className='category__section-content__container-block'>
           <img src={events} alt="weather" />
             <h3>local events</h3>
-            <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+            <p>Barton vanity itself do in it. Preferd to men it engrossed. </p>
           </div>
           <div className='category__section-content__container-block'>
           <img src={customization} alt="weather" />
             <h3>customization</h3>
-            <p>We deliver outsourced aviation services for military customers</p>
+            <p>We deliver outsourced aviation services for military</p>
           </div>
         </div>
       </div>
