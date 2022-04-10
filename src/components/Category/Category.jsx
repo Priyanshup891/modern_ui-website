@@ -19,7 +19,7 @@ const Category = () => {
             <h3>calculate weather</h3>
             <p>Built Wicket longer admire do barton vanity itself do in it.</p>
           </div>
-          <div className='category__section-content__container-block'>
+          <div className='category__section-content__container-block category-active'>
           <img src={flight} alt="flight" />
             <h3>best flights</h3>
             <p>Engrossed listening. Park gate sell they west hard for the.</p>

@@ -31,7 +31,9 @@ const App = () => {
       {/* <EasyAndFast /> */}
       <Testimonials />
       <Brands />
+      <div className="gradient__bg_2">
       <Subscribe />
+      </div>
       <Footer />
     </div>
   );
