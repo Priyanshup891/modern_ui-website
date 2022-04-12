@@ -9,7 +9,6 @@ import {
   Hero,
   Category,
   TopSelling,
-  EasyAndFast,
   Testimonials,
   Brands,
   Subscribe,
@@ -28,7 +27,6 @@ const App = () => {
       <Category />
       <TopSelling />
       </div>
-      {/* <EasyAndFast /> */}
       <Testimonials />
       <Brands />
       <div className="gradient__bg_2">
